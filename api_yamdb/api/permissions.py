@@ -5,10 +5,12 @@ class AdminOnly(permissions.BasePermission):
     def has_permission(self, request, view):
         if not request.user.is_anonymous:
             return request.user.is_admin
+        return
 
     def has_object_permission(self, request, view, obj):
         if not request.user.is_anonymous:
             return request.user.is_admin
+        return
 
 
 class IsAdminUserOrReadOnly(permissions.BasePermission):
