@@ -3,14 +3,10 @@ from rest_framework import permissions
 
 class AdminOnly(permissions.BasePermission):
     def has_permission(self, request, view):
-        if not request.user.is_anonymous:
-            return request.user.is_admin
-        return
+        return request.user.is_authenticated and request.user.is_admin
 
     def has_object_permission(self, request, view, obj):
-        if not request.user.is_anonymous:
-            return request.user.is_admin
-        return
+        return request.user.is_authenticated and request.user.is_admin
 
 
 class IsAdminUserOrReadOnly(permissions.BasePermission):
