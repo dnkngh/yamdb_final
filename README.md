@@ -34,7 +34,7 @@
 git clone https://github.com/dnkngh/infra_sp2
 ```
 
-##### 3. Создайте в директории `./infra` файл `.env`
+##### 3. Создайте в директории `./infra`  файл `.env`
 Пример наполнения файла:
 ```
 DB_ENGINE=django.db.backends.postgresql
