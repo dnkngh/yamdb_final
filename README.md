@@ -1,6 +1,6 @@
 # Проект api_yamdb
 
-![yamdb workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![yamdb workflow](https://github.com/dnkngh/yamdb_final/actions/workflows/<WORKFLOW_FILE>/badge.svg)
 
 ## Описание
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории:
