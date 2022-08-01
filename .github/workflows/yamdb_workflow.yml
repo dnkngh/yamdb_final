@@ -36,7 +36,7 @@ jobs:
         # Проверка доступности репозитория Docker Hub для workflow
         uses: actions/checkout@v2
       - name: Set up Docker Buildx
-        # Вызов сборщика  контейнеров docker
+        # Вызов сборщика контейнеров docker
         uses: docker/setup-buildx-action@v1
       - name: Login to Docker
         # Запуск скрипта авторизации на Docker Hub
