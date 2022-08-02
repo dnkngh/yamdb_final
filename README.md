@@ -2,7 +2,7 @@
 
 ![yamdb workflow](https://github.com/dnkngh/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-Проект развернут по адресу
+Проект развернут по адресу http://51.250.23.114/redoc/
 
 ## Описание
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории:
